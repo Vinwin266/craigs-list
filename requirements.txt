@@ -100,7 +100,6 @@ llvmlite==0.32.0
 locket==0.2.0
 lxml==4.4.1
 Markdown==3.1.1
-MarkupSafe==1.1.1
 menuinst==1.4.16
 mistune==0.8.4
 mkl-fft==1.0.15
@@ -128,7 +127,7 @@ packaging==20.3
 pandas==0.25.1
 pandas-datareader==0.8.0
 pandocfilters==1.4.2
-paramiko==2.7.1
+paramiko==2.7.1 
 parso==0.5.2
 partd==1.1.0
 path==13.1.0
