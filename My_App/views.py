@@ -25,7 +25,7 @@ def new_search(request):
         if post.find(class_='result-price'):
             post_price = post.find(class_='result-price').get_text()
         else:
-            post_price = 'Price not Availble'
+            post_price = 'Price not Available'
 
         if post.find(class_='result-image').get('data-ids'):
             post_image_id = post.find(class_='result-image').get('data-ids').split(',')[0].split(':')[1]
