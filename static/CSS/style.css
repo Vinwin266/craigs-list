@@ -1,6 +1,6 @@
 .card{
     height : 400px;
-    overflow : flex;
+    overflow : hidden;
 }
 
 .card-image{
